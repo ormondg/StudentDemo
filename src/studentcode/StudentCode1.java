@@ -57,14 +57,13 @@ public class StudentCode1 {
     public void setName(String givenName) {
         name = givenName;
     }
-    
-    public void setProgram(String program) {
-        this.program = program;
-    }
 
     public String getProgram() {
         return program;
     }
     
+    public void setProgram(String program) {
+        this.program = program;
+    }
 }
 
