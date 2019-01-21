@@ -10,12 +10,53 @@ package studentcode;
  * @author Graham
  */
 public class StudentCode1 {
+  private String studentID;
+  private String name;
+  private String program;
+  
+  /**
+   * A constructor to pass in the given ID and then name
+   * @param givenID - the ID to assign
+   * @param givenName- the name to assign 
+   */
+  public StudentCode1(String givenID, String givenName)
+  {
+      studentID = givenID;
+      name = givenName;
+  }
+  
+  /**
+   * A method to set the student ID
+   * @param givenID the ID to set
+   */
+  public void setStudentID(String givenID)
+  {
+      studentID=givenID;
+  }
+  /**
+   * An accessor method for studentID
+   * @return the student's ID 
+   */
+  public String getStudentID()
+  {
+      return studentID;
+  }
 
     /**
-     * @param args the command line arguments
+     * A method to return the student's name
+     * @return the name
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * A method to set the student's name
+     * @param givenName the name to set
+     */
+    public void setName(String givenName) {
+        name = givenName;
     }
     
 }
+
