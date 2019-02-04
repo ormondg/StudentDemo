@@ -14,7 +14,7 @@ public class StudentCode1 {
   private String name;
   private String program;
   private String course;
-  // change example
+  // change example in secondary branch
   
   /**
    * A constructor to pass in the given ID and then name
